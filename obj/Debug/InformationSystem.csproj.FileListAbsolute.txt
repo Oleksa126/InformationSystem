@@ -1,0 +1,10 @@
+C:\Users\User\Documents\Visual Studio 2017\repos\InformationSystem\InformationSystem\bin\Debug\InformationSystem.exe.config
+C:\Users\User\Documents\Visual Studio 2017\repos\InformationSystem\InformationSystem\bin\Debug\InformationSystem.exe
+C:\Users\User\Documents\Visual Studio 2017\repos\InformationSystem\InformationSystem\bin\Debug\InformationSystem.pdb
+C:\Users\User\Documents\Visual Studio 2017\repos\InformationSystem\InformationSystem\obj\Debug\InformationSystem.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\repos\InformationSystem\InformationSystem\obj\Debug\InformationSystem.Form1.resources
+C:\Users\User\Documents\Visual Studio 2017\repos\InformationSystem\InformationSystem\obj\Debug\InformationSystem.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2017\repos\InformationSystem\InformationSystem\obj\Debug\InformationSystem.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2017\repos\InformationSystem\InformationSystem\obj\Debug\InformationSystem.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\repos\InformationSystem\InformationSystem\obj\Debug\InformationSystem.exe
+C:\Users\User\Documents\Visual Studio 2017\repos\InformationSystem\InformationSystem\obj\Debug\InformationSystem.pdb
