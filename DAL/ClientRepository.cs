@@ -231,5 +231,15 @@ namespace InformationSystem.DAL
             con.Close();
             return dataAdapter;
         }
+
+        public SqlDataAdapter multiStatementFunction(int id) {
+            SqlConnection con = new SqlConnection(ConnectionString);
+            con.Open();
+            string Query = "select * from F_Get_Client  ('" + id + "')";
+
+            SqlDataAdapter command = new SqlDataAdapter(Query, con);
+            return command;
+            con.Close();
+        }
     }
 }

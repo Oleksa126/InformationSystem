@@ -93,5 +93,13 @@ namespace InformationSystem.BLL
             dataAdapter.Fill(dataSet, "Result");
             return dataSet;
         }
+
+        public DataSet multiStatementFunction(int id) {
+            DataSet dataSet = new DataSet();
+            ClientRepository clientRepository = new ClientRepository();
+            var dataAdapter = clientRepository.multiStatementFunction(id);
+            dataAdapter.Fill(dataSet, "Result");
+            return dataSet;
+        }
     }
 }

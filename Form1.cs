@@ -117,5 +117,14 @@ namespace InformationSystem
             dgwResults.DataSource = dataSet.Tables[0];
             dgwResults.Refresh();
         }
+
+        private void multiStatement_Click(object sender, EventArgs e)
+        {
+            Client client = (Client)comboBox1.SelectedItem;
+            ClientService clientService = new ClientService();
+            var dataSet = clientService.multiStatementFunction(client.idClient);
+            dgwResults.DataSource = dataSet.Tables[0];
+            dgwResults.Refresh();
+        }
     }
 }

@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.threeCon = new System.Windows.Forms.Button();
+            this.rightJoin = new System.Windows.Forms.Button();
             this.leftJoin = new System.Windows.Forms.Button();
             this.innerJoin = new System.Windows.Forms.Button();
             this.infoAboutClient = new System.Windows.Forms.Button();
@@ -51,8 +53,7 @@
             this.deleteClient = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dgwResults = new System.Windows.Forms.DataGridView();
-            this.rightJoin = new System.Windows.Forms.Button();
-            this.threeCon = new System.Windows.Forms.Button();
+            this.multiStatement = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -68,6 +69,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.multiStatement);
             this.splitContainer1.Panel1.Controls.Add(this.threeCon);
             this.splitContainer1.Panel1.Controls.Add(this.rightJoin);
             this.splitContainer1.Panel1.Controls.Add(this.leftJoin);
@@ -98,6 +100,26 @@
             this.splitContainer1.Size = new System.Drawing.Size(681, 415);
             this.splitContainer1.SplitterDistance = 227;
             this.splitContainer1.TabIndex = 0;
+            // 
+            // threeCon
+            // 
+            this.threeCon.Location = new System.Drawing.Point(12, 369);
+            this.threeCon.Name = "threeCon";
+            this.threeCon.Size = new System.Drawing.Size(75, 23);
+            this.threeCon.TabIndex = 22;
+            this.threeCon.Text = "threeCon";
+            this.threeCon.UseVisualStyleBackColor = true;
+            this.threeCon.Click += new System.EventHandler(this.threeCon_Click);
+            // 
+            // rightJoin
+            // 
+            this.rightJoin.Location = new System.Drawing.Point(138, 369);
+            this.rightJoin.Name = "rightJoin";
+            this.rightJoin.Size = new System.Drawing.Size(75, 23);
+            this.rightJoin.TabIndex = 21;
+            this.rightJoin.Text = "rightJoin";
+            this.rightJoin.UseVisualStyleBackColor = true;
+            this.rightJoin.Click += new System.EventHandler(this.rightJoin_Click);
             // 
             // leftJoin
             // 
@@ -294,25 +316,15 @@
             this.dgwResults.TabIndex = 0;
             this.dgwResults.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // rightJoin
+            // multiStatement
             // 
-            this.rightJoin.Location = new System.Drawing.Point(138, 369);
-            this.rightJoin.Name = "rightJoin";
-            this.rightJoin.Size = new System.Drawing.Size(75, 23);
-            this.rightJoin.TabIndex = 21;
-            this.rightJoin.Text = "rightJoin";
-            this.rightJoin.UseVisualStyleBackColor = true;
-            this.rightJoin.Click += new System.EventHandler(this.rightJoin_Click);
-            // 
-            // threeCon
-            // 
-            this.threeCon.Location = new System.Drawing.Point(12, 369);
-            this.threeCon.Name = "threeCon";
-            this.threeCon.Size = new System.Drawing.Size(75, 23);
-            this.threeCon.TabIndex = 22;
-            this.threeCon.Text = "threeCon";
-            this.threeCon.UseVisualStyleBackColor = true;
-            this.threeCon.Click += new System.EventHandler(this.threeCon_Click);
+            this.multiStatement.Location = new System.Drawing.Point(138, 278);
+            this.multiStatement.Name = "multiStatement";
+            this.multiStatement.Size = new System.Drawing.Size(75, 23);
+            this.multiStatement.TabIndex = 23;
+            this.multiStatement.Text = "multiSt";
+            this.multiStatement.UseVisualStyleBackColor = true;
+            this.multiStatement.Click += new System.EventHandler(this.multiStatement_Click);
             // 
             // Form1
             // 
@@ -360,6 +372,7 @@
         private System.Windows.Forms.Button leftJoin;
         private System.Windows.Forms.Button rightJoin;
         private System.Windows.Forms.Button threeCon;
+        private System.Windows.Forms.Button multiStatement;
     }
 }
 
